@@ -34,3 +34,6 @@ def register(request):
 def profile(request):
     return render(request, 'users/profile.html')
 
+def stockPicker(request):
+    return render(request, 'Users/stockpicker.html')
+
